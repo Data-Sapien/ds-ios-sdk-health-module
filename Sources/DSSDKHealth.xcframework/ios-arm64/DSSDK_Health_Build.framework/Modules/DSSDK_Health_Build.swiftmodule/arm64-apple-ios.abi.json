@@ -6479,7 +6479,7 @@
       "kind": "StringLiteral",
       "offset": 168,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.0.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/HeartRateDataCollector.swift",
