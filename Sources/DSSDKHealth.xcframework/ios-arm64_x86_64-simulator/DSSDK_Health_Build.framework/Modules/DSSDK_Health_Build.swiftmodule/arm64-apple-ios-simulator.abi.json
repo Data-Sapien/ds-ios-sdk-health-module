@@ -30,641 +30,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SleepDurationDataCollector",
-        "printedName": "SleepDurationDataCollector",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SleepDurationDataCollector",
-                "printedName": "DSSDK_Health_Build.SleepDurationDataCollector",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorCACycfc",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvp",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvg",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvs",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvM",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "requiredPermissions",
-            "printedName": "requiredPermissions",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "permissionType",
-            "printedName": "permissionType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DSSDK.PermissionType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PermissionType",
-                    "printedName": "DSSDK.PermissionType",
-                    "usr": "s:5DSSDK14PermissionTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvp",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvp",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvg",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvg",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DSSDK.PermissionType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "DSSDK.PermissionType",
-                        "usr": "s:5DSSDK14PermissionTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvs",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvs",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvM",
-                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvM",
-                "moduleName": "DSSDK_Health_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "isPermissionsGranted",
-            "printedName": "isPermissionsGranted()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC20isPermissionsGrantedSbyF",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC20isPermissionsGrantedSbyF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "collectData",
-            "printedName": "collectData(meDataName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueResponse",
-                "printedName": "DSSDK.MeDataValueResponse",
-                "usr": "s:5DSSDK19MeDataValueResponseO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
-            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
-            "moduleName": "DSSDK_Health_Build",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC",
-        "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MeDataValueCollector",
-            "printedName": "MeDataValueCollector",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "T",
-                "printedName": "T",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[DSSDK.MeDataRecordResponse]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MeDataRecordResponse",
-                        "printedName": "DSSDK.MeDataRecordResponse",
-                        "usr": "s:5DSSDK20MeDataRecordResponseV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:5DSSDK20MeDataValueCollectorP",
-            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SleepDurationDataCollectorPlugin",
-        "printedName": "SleepDurationDataCollectorPlugin",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "createCollector",
-            "printedName": "createCollector()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MeDataValueCollector",
-                "printedName": "any DSSDK.MeDataValueCollector",
-                "usr": "s:5DSSDK20MeDataValueCollectorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DSSDK_Health_Build32SleepDurationDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
-            "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
-            "moduleName": "DSSDK_Health_Build",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SleepDurationDataCollectorPlugin",
-                "printedName": "DSSDK_Health_Build.SleepDurationDataCollectorPlugin",
-                "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin(im)init",
-            "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginCACycfc",
-            "moduleName": "DSSDK_Health_Build",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin",
-        "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginC",
-        "moduleName": "DSSDK_Health_Build",
-        "objc_name": "SleepDurationDataCollectorPlugin",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "CollectorPlugin",
-            "printedName": "CollectorPlugin",
-            "usr": "s:5DSSDK15CollectorPluginP",
-            "mangledName": "$s5DSSDK15CollectorPluginP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "HealthKit",
-        "printedName": "HealthKit",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "Import",
-        "name": "DSSDK",
-        "printedName": "DSSDK",
-        "declKind": "Import",
-        "moduleName": "DSSDK_Health_Build"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "StepCountDataCollector",
         "printedName": "StepCountDataCollector",
         "children": [
@@ -6427,25 +5792,646 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthKit",
+        "printedName": "HealthKit",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "DSSDK",
+        "printedName": "DSSDK",
+        "declKind": "Import",
+        "moduleName": "DSSDK_Health_Build"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SleepDurationDataCollector",
+        "printedName": "SleepDurationDataCollector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SleepDurationDataCollector",
+                "printedName": "DSSDK_Health_Build.SleepDurationDataCollector",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorCACycfc",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvp",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvg",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvs",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvM",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC4nameSSvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requiredPermissions",
+            "printedName": "requiredPermissions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC19requiredPermissionsSaySSGSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permissionType",
+            "printedName": "permissionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DSSDK.PermissionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "DSSDK.PermissionType",
+                    "usr": "s:5DSSDK14PermissionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvp",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvp",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvg",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvg",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DSSDK.PermissionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "DSSDK.PermissionType",
+                        "usr": "s:5DSSDK14PermissionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvs",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvs",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvM",
+                "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC14permissionType0A0010PermissionI0OSgvM",
+                "moduleName": "DSSDK_Health_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionsGranted",
+            "printedName": "isPermissionsGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC20isPermissionsGrantedSbyF",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC20isPermissionsGrantedSbyF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectData",
+            "printedName": "collectData(meDataName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueResponse",
+                "printedName": "DSSDK.MeDataValueResponse",
+                "usr": "s:5DSSDK19MeDataValueResponseO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
+            "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC07collectF002meF4Name0A002MeF13ValueResponseOSSSg_tYaKF",
+            "moduleName": "DSSDK_Health_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18DSSDK_Health_Build26SleepDurationDataCollectorC",
+        "mangledName": "$s18DSSDK_Health_Build26SleepDurationDataCollectorC",
+        "moduleName": "DSSDK_Health_Build",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MeDataValueCollector",
+            "printedName": "MeDataValueCollector",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "T",
+                "printedName": "T",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DSSDK.MeDataRecordResponse]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MeDataRecordResponse",
+                        "printedName": "DSSDK.MeDataRecordResponse",
+                        "usr": "s:5DSSDK20MeDataRecordResponseV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5DSSDK20MeDataValueCollectorP",
+            "mangledName": "$s5DSSDK20MeDataValueCollectorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SleepDurationDataCollectorPlugin",
+        "printedName": "SleepDurationDataCollectorPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCollector",
+            "printedName": "createCollector()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MeDataValueCollector",
+                "printedName": "any DSSDK.MeDataValueCollector",
+                "usr": "s:5DSSDK20MeDataValueCollectorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DSSDK_Health_Build32SleepDurationDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
+            "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginC06createG00A002Mef5ValueG0_pyFZ",
+            "moduleName": "DSSDK_Health_Build",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SleepDurationDataCollectorPlugin",
+                "printedName": "DSSDK_Health_Build.SleepDurationDataCollectorPlugin",
+                "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin(im)init",
+            "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginCACycfc",
+            "moduleName": "DSSDK_Health_Build",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DSSDK_Health_Build@objc(cs)SleepDurationDataCollectorPlugin",
+        "mangledName": "$s18DSSDK_Health_Build32SleepDurationDataCollectorPluginC",
+        "moduleName": "DSSDK_Health_Build",
+        "objc_name": "SleepDurationDataCollectorPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CollectorPlugin",
+            "printedName": "CollectorPlugin",
+            "usr": "s:5DSSDK15CollectorPluginP",
+            "mangledName": "$s5DSSDK15CollectorPluginP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/SleepDurationDataCollector.swift",
-      "kind": "Array",
-      "offset": 447,
-      "length": 35,
-      "value": "[\"HKHealthStore\", \".sleepAnalysis\"]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/SleepDurationDataCollector.swift",
-      "kind": "Array",
-      "offset": 558,
-      "length": 41,
-      "value": "[\"HKCategoryTypeIdentifierSleepAnalysis\"]"
-    },
     {
       "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/StepCountDataCollector.swift",
       "kind": "Array",
@@ -6613,6 +6599,20 @@
       "offset": 591,
       "length": 44,
       "value": "[\"HKQuantityTypeIdentifierRestingHeartRate\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/SleepDurationDataCollector.swift",
+      "kind": "Array",
+      "offset": 447,
+      "length": 35,
+      "value": "[\"HKHealthStore\", \".sleepAnalysis\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ds-ios-sdk-source\/ds-ios-sdk-source\/health-module\/DSSDK-Health-Build\/SleepDurationDataCollector.swift",
+      "kind": "Array",
+      "offset": 558,
+      "length": 41,
+      "value": "[\"HKCategoryTypeIdentifierSleepAnalysis\"]"
     }
   ]
 }

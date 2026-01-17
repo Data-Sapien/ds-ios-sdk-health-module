@@ -9,21 +9,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class SleepDurationDataCollector : DSSDK.MeDataValueCollector {
-  public init()
-  public typealias T = [DSSDK.MeDataRecordResponse]
-  public var name: Swift.String
-  public var requiredPermissions: [Swift.String]?
-  public var permissionType: DSSDK.PermissionType?
-  public func isPermissionsGranted() -> Swift.Bool
-  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc(SleepDurationDataCollectorPlugin) public class SleepDurationDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
-  public static func createCollector() -> any DSSDK.MeDataValueCollector
-  @objc override dynamic public init()
-  @objc deinit
-}
 final public class StepCountDataCollector : DSSDK.MeDataValueCollector {
   public init()
   public typealias T = [DSSDK.MeDataRecordResponse]
@@ -161,6 +146,21 @@ public class RestingHeartRateDataCollector : DSSDK.MeDataValueCollector {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(RestingHeartRateDataCollectorPlugin) public class RestingHeartRateDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
+  public static func createCollector() -> any DSSDK.MeDataValueCollector
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class SleepDurationDataCollector : DSSDK.MeDataValueCollector {
+  public init()
+  public typealias T = [DSSDK.MeDataRecordResponse]
+  public var name: Swift.String
+  public var requiredPermissions: [Swift.String]?
+  public var permissionType: DSSDK.PermissionType?
+  public func isPermissionsGranted() -> Swift.Bool
+  public func collectData(meDataName: Swift.String? = nil) async throws -> DSSDK.MeDataValueResponse
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SleepDurationDataCollectorPlugin) public class SleepDurationDataCollectorPlugin : ObjectiveC.NSObject, DSSDK.CollectorPlugin {
   public static func createCollector() -> any DSSDK.MeDataValueCollector
   @objc override dynamic public init()
   @objc deinit
